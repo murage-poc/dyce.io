@@ -1,4 +1,4 @@
-####INSTALL
+****INSTALL
 - Clone or download this project [here](https://codeload.github.com/mimidotsuser/dyce.io/zip/master)
 - The best (and currently only) way to install dependencies is using composer. This ensure one downloads the right version dependicies
 The project depends on [ratchet](http://socketo.me) a loosely coupled PHP sockets library.
