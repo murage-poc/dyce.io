@@ -38,7 +38,7 @@
     }
 
     function swock() {
-        var conn=new WebSocket("ws://localhost:8000");
+        var conn=new WebSocket("ws://<?php echo $_SERVER['SERVER_NAME']?>:8000");
 
         conn.onopen=(function (e) {
             console.log("connection established");
