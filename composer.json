@@ -1,0 +1,15 @@
+{
+    "name": "mimidots/io",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "cboden/ratchet": "^0.4.1",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "io\\": "app"
+        }
+    }
+}
